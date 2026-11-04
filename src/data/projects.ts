@@ -1,4 +1,7 @@
 import { Project } from '../types';
+import pgFinderImage from '../assets/images/pgfinder_platform_preview_1793155427276.jpg';
+
+import stockVolatilityImage from '../assets/images/stock_volatility_preview_1793155427283.jpg';
 
 export const projectsData: Project[] = [
   {
@@ -8,7 +11,8 @@ export const projectsData: Project[] = [
     subtitle: 'Accommodation platform connecting students & working professionals with PG rooms',
     description:
       'A full-stack accommodation-finder application built to help users explore PG listings and manage accommodation-related information. Features robust REST APIs, authentication, media uploads, and listing filters.',
-    image: '/src/assets/images/pgfinder_platform_preview_1793155427276.jpg',
+    // image: '/src/assets/images/pgfinder_platform_preview_1793155427276.jpg',
+    image: pgFinderImage,
     technologies: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JWT', 'Bcrypt', 'Multer'],
     problemStatement:
       'Finding reliable PG accommodations with verified amenities and direct host contact is fragmented and tedious for university students and relocating professionals.',
@@ -34,7 +38,7 @@ export const projectsData: Project[] = [
     subtitle: 'Market volatility analytics & financial risk monitoring platform',
     description:
       'A financial analytics web application designed to track, analyze, and visualize stock market volatility and trends through financial data and interactive visualizations.',
-    image: '/src/assets/images/stock_volatility_preview_1793155427283.jpg',
+    image: stockVolatilityImage,
     technologies: ['Python', 'HTML5', 'CSS3', 'JavaScript', 'Pandas', 'NumPy'],
     problemStatement:
       'Retail investors and FinTech students need clear, accessible market volatility metrics and time-series charting without cumbersome enterprise terminal paywalls.',
